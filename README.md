@@ -19,7 +19,6 @@ git clone https://github.com/ricardoues/image_captioning.git
 
 Run the requeriments file as follows:
 
-
 ```bash
 pip3 install -r requirements.txt
 ```
@@ -42,3 +41,12 @@ The folder cocoapi must be in /opt.
 ## How to run the image captioning deep learning model  
 Open the 3_Inference.ipynb notebook file inside the folder Notebooks and run all the cell code.
 
+
+## How to reproduce the results
+
+Run the following in a terminal: 
+
+
+```bash
+nohup python3  /jet/prs/workspace/Notebooks/train.py | tee output.txt & 
+```
