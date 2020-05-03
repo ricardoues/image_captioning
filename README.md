@@ -38,3 +38,7 @@ python3 setup.py install
 ```
 
 The folder cocoapi must be in /opt.  
+
+## How to run the image captioning deep learning model  
+Open the 3_Inference.ipynb notebook file inside the folder Notebooks and run all the cell code.
+
